@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root{
+    --navyblue: #3D56B2;
+}
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body{
+    max-width: 600px;
+    margin: auto;
+    background-color: var(--navyblue);
+    width: 100%;
+}
+
+.container {
+    padding: 0rem 1rem;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 85%;
+    padding: 0.5rem 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px ;
+    border: 2px solid;
+    background-color: var(--navyblue);
+    font-weight: bold;
+}
+
+#output-box {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-width: medium;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--navyblue);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    position:absolute;
+    bottom:0;
+    margin: 0px 10rem;
+}
+
+footer .link{
+     color: white;
+}
+
+footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer-heading {
+    font-weight: bold;
+    font-size: large;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
