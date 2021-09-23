@@ -5,24 +5,21 @@ const outputBox = document.querySelector("#output-box");
 
 function compareValues(sum,luckyNumber) {
     if (sum%luckyNumber===0) {
-        outputBox.innertext ="Your birthday is lucky";
+        outputBox.innerText="Your birthday is lucky";
     } else {
-        outputBox.innertext ="Your birthday is not lucky";
+        outputBox.innerText="Your birthday is not lucky";
     }
 }
 
-// function compareValues(sum,luckyNumber){
-//     if(sum%luckyNumber===0){
-//       outputBox.innerText="Your birthday is lucky 🚀";
-//     }else {
-//       outputBox.innerText="Your birthday is not lucky 🤒";
-//     }
-//   }
+
 
 function checkBirthdayIsLucky() {
     const dob = dateOfBirth.value
     const sum = calculateSum(dob);
+    if(sum&&dob)
     compareValues(sum, luckyNumber.value)
+    else
+    outputBox.innerText= "Please enter both the fields"
 
 }
 
